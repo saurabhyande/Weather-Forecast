@@ -52,7 +52,7 @@ async function checkweather(city)
         }
     
         document.querySelector(".weather").style.display = "block";
-        document.querySelector(".weather").style.display = "none";
+       document.querySelector(".error").style.display = "none";
     }
 
 }
